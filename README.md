@@ -31,9 +31,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/YukiKras/vless-scripts/refs/he
 Если у вас не получается зайти в Marzban панель вообще, то вам необходимо либо её [полностью переустановить](https://wiki.yukikras.net/ru/razvertyvanie-proksi-protokola-vless-s-pomoshyu-marzban), или подключиться к ней с помощью SSH туннеля или изменить её порт на `8080`
 
 Если у вас получается зайти в Marzban панель, и при этом не работают Vless подключения то перейдите в настройки:
+
 <img width="768" height="97" alt="image(2)" src="https://github.com/user-attachments/assets/c0216508-8b5e-4f6c-9365-ef4d9124e805" />
 
+
 Убедитесь что тут стоит 443 или 8443 порт:
+
 <img width="420" height="273" alt="изображение" src="https://github.com/user-attachments/assets/771957fc-7892-44a1-8189-22b814608b63" />
+
 
 Если вы внесли изменения то нажмите на кнопку **Сохранить**, перезагрузить страницу с помощью клавиши **F5** и если вы не настраивали подписки в Marzban то вам необходимо передобавить Vless ключи в ваши клиенты заново.
