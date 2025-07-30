@@ -32,6 +32,25 @@ bash <(curl -Ls https://raw.githubusercontent.com/YukiKras/vless-scripts/refs/he
 
 Если у вас не получается зайти в Marzban панель вообще, то вам необходимо либо её [полностью переустановить](https://wiki.yukikras.net/ru/razvertyvanie-proksi-protokola-vless-s-pomoshyu-marzban), или подключиться к ней с помощью SSH туннеля или изменить её порт на `8080`
 
+# Как сменить порт в Marzban панели?
+
+Если вы ранее настраивали SSL для Marzban то зайдите на сервер по [SSH](https://wiki.yukikras.net/ru/kak-podklyuchitsya-po-ssh-i-sftp) и откройте файл настройки Marzban:
+
+``` bash
+nano /opt/marzban/.env
+```
+
+<img width="857" height="420" alt="изображение" src="https://github.com/user-attachments/assets/9aebd8f6-25da-4fb4-bc28-1fa94e675772" />
+
+Нужно отредактировать вторую строку заменив 8000 порт например на порт 8080, чтобы сохранить изменения в nano нажмите на сочетание клавиш **Ctlr + O** и **Enter**, чтобы выйти из nano нажмите на **Ctrl + X**
+Далее чтобы применить изменения перезапустите Marzban с помощью следующей команды:
+
+``` bash
+marzban restart
+```
+
+Готово! Можете пробувать входить по новому порту.
+
 # У меня перестал работать Vless в Marzban 
 
 Если у вас получается зайти в Marzban панель, и при этом не работают Vless подключения то перейдите в настройки:
