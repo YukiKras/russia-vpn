@@ -24,7 +24,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/YukiKras/vless-scripts/refs/he
 <img width="555" height="578" alt="waterfox_IDtfPIglOw" src="https://github.com/user-attachments/assets/997478e2-36cb-498e-8a74-b5616029db19" />
 
 Далее измените порт на 443 или 8443 где подчёркнуто и сохраните изменения:
-<img width="543" height="1306" alt="eYiEyVTTNu" src="https://github.com/user-attachments/assets/fb077139-cb8c-4f9b-8498-acf150d0e26c" />
+<img width="507" height="1284" alt="waterfox_BDD6Ypehlg" src="https://github.com/user-attachments/assets/9138fb16-2fcb-4d49-b082-73be456efe7e" />
+
 
 Если вы не настраивали подписки в 3x-ui то вам необходимо передобавить Vless ключи в ваши клиенты заново.
 
