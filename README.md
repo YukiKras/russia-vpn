@@ -11,7 +11,11 @@
 # У меня перестал работать WireGuard, WG Easy, OpenVPN, Outline, ShadowSocks, Amnezia, socks5, PPTP и т. д.
 
 В последнее время данные протоколы РКН блокируются, блокировки происходят постепенно, поэтому всё ещё эти протоколы могут где-то пока работать.
-Рекомендую отказаться от использования данных протоколов перейти на Vless протокол следуя [этой инструкции](https://wiki.yukikras.net/ru/razvertyvanie-proksi-protokola-vless-s-pomoshyu-3x-ui)
+Рекомендую отказаться от использования данных протоколов перейти на Vless протокол следуя этой инструкции: https://wiki.yukikras.net/ru/razvertyvanie-proksi-protokola-vless-s-pomoshyu-3x-ui
+
+# Настройка Vless клиентов
+
+Vless клиенты имеются для всех платформ, с их настройкой вы можете ознакомиться тут: https://wiki.yukikras.net/ru/nastroikavpn
 
 # У меня перестала работать 3x-ui панель
 
