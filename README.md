@@ -8,6 +8,14 @@
 РКН начал агресивную блокировку нестандартндартных http портов, стандартные http порты которые не блокируются: `80`, `8080`, `443`, `8443`
 Также РКН начал активнее блокировать легкозасекаемые VPN протоколы.
 
+# У меня перестал работать WireGuard
+
+<img src="wg.png" alt="Описание изображения" width="500" height="300">
+
+В настоящее время протокол WireGuard подвергается блокировкам со стороны РКН, что приводит к его неработоспособности в большинстве случаев.
+
+**[ЧТО ДЕЛАТЬ?](WIREGUARD.md) - [Подробная инструкция](WIREGUARD.md)**
+
 # У меня перестал работать WireGuard, WG Easy, OpenVPN, Outline, ShadowSocks, Amnezia, socks5, PPTP и т. д.
 
 В последнее время данные протоколы РКН блокируются, блокировки происходят постепенно, поэтому всё ещё эти протоколы могут где-то пока работать.
@@ -20,7 +28,8 @@ Vless клиенты имеются для всех платформ, с их н
 # У меня перестала работать 3x-ui панель
 
 РКН начал блокировать нестандартные http/https порты, вы можете восстановить работу панели подключившись к серверу по [SSH](https://wiki.yukikras.net/ru/kak-podklyuchitsya-po-ssh-i-sftp) и введя следующую команду в консоли сервера:
-``` bash
+
+```bash
 bash <(curl -Ls https://raw.githubusercontent.com/YukiKras/vless-scripts/refs/heads/main/3xuiportfix.sh)
 ```
 
@@ -35,7 +44,6 @@ bash <(curl -Ls https://raw.githubusercontent.com/YukiKras/vless-scripts/refs/he
 Далее измените порт на 443 или 8443 где подчёркнуто и сохраните изменения:
 <img width="507" height="1284" alt="waterfox_BDD6Ypehlg" src="https://github.com/user-attachments/assets/9138fb16-2fcb-4d49-b082-73be456efe7e" />
 
-
 Если вы не настраивали подписки в 3x-ui то вам необходимо передобавить Vless ключи в ваши клиенты заново.
 
 # У меня перестала работать Marzban панель.
@@ -46,7 +54,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/YukiKras/vless-scripts/refs/he
 
 Если вы ранее настраивали SSL для Marzban то зайдите на сервер по [SSH](https://wiki.yukikras.net/ru/kak-podklyuchitsya-po-ssh-i-sftp) и откройте файл настройки Marzban:
 
-``` bash
+```bash
 nano /opt/marzban/.env
 ```
 
@@ -55,29 +63,28 @@ nano /opt/marzban/.env
 Нужно отредактировать вторую строку заменив `8000` порт например на порт `8080`, чтобы сохранить изменения в nano нажмите на сочетание клавиш **Ctlr + O** и **Enter**, чтобы выйти из nano нажмите на **Ctrl + X**
 Далее чтобы применить изменения перезапустите Marzban с помощью следующей команды:
 
-``` bash
+```bash
 marzban restart
 ```
 
 Готово! Можете пробовать входить по новому порту.
 
-# У меня перестал работать Vless в Marzban 
+# У меня перестал работать Vless в Marzban
 
 Если у вас получается зайти в Marzban панель, и при этом не работают Vless подключения то перейдите в настройки:
 
 <img width="768" height="97" alt="image(2)" src="https://github.com/user-attachments/assets/c0216508-8b5e-4f6c-9365-ef4d9124e805" />
 
-
 Убедитесь что тут стоит 443 или 8443 порт:
 
 <img width="420" height="273" alt="изображение" src="https://github.com/user-attachments/assets/771957fc-7892-44a1-8189-22b814608b63" />
-
 
 Если вы внесли изменения то нажмите на кнопку **Сохранить**, перезагрузить страницу с помощью клавиши **F5** и если вы не настраивали подписки в Marzban то вам необходимо передобавить Vless ключи в ваши клиенты заново.
 
 # У меня перестал работать TorrServer
 
 Вы можете восстановить работу панели подключившись к серверу по [SSH](https://wiki.yukikras.net/ru/kak-podklyuchitsya-po-ssh-i-sftp) и введя следующую команду в консоли сервера:
-``` bash
+
+```bash
 bash <(curl -Ls https://raw.githubusercontent.com/YukiKras/vless-scripts/refs/heads/main/torrserver-port-change-to-8080.sh)
 ```
