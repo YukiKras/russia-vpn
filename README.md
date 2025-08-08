@@ -8,6 +8,18 @@
 РКН начал агресивную блокировку нестандартндартных http портов, стандартные http порты которые не блокируются: `80`, `8080`, `443`, `8443`
 Также РКН начал активнее блокировать легкозасекаемые VPN протоколы.
 
+# Оглавление
+
+[У меня перестал работать WireGuard](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-wireguard)
+[У меня перестал работать WireGuard, WG Easy, OpenVPN, Outline, ShadowSocks, Amnezia, socks5, PPTP и т. д.](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-wireguard-wg-easy-openvpn-outline-shadowsocks-amnezia-socks5-pptp-%D0%B8-%D1%82-%D0%B4)
+[Настройка Vless клиентов](https://github.com/YukiKras/russia-vpn#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-vless-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2)
+[У меня перестала работать 3x-ui панель](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-3x-ui-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C)
+[У меня перестал работать Vless ключ в 3x-ui панели](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-vless-%D0%BA%D0%BB%D1%8E%D1%87-%D0%B2-3x-ui-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8)
+[У меня перестала работать Marzban панель.](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-marzban-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C)
+[У меня перестал работать Vless в Marzban ](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-vless-%D0%B2-marzban)
+[Как сменить порт в Marzban панели?](https://github.com/YukiKras/russia-vpn#%D0%BA%D0%B0%D0%BA-%D1%81%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE%D1%80%D1%82-%D0%B2-marzban-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8)
+[У меня перестал работать TorrServer](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-torrserver)
+
 # У меня перестал работать WireGuard
 
 В настоящее время протокол WireGuard подвергается блокировкам со стороны РКН, что приводит к его неработоспособности в большинстве случаев.
