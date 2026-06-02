@@ -34,13 +34,9 @@
 
 [У меня перестал работать TorrServer](https://github.com/YukiKras/russia-vpn#%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BB-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-torrserver)
 
-# Не работает Vless протокол не смотря на настройки SNI
+# Инструкция по смене SNI/Dest в 3x-ui панели
 
-Рекомендую перейти на Hysteria2 протокол следуя этой инструкции: https://github.com/YukiKras/wiki/blob/main/hysteria2-install.md
-
-Также можно попробовать убрать SNI, в некоторых случаях помогает, это можно сделать следующим образом:
-
-Для этого войдите в 3x-ui панель по инструкциям из [wiki.aeza.net](https://wiki.aeza.net/aezawiki/razvertyvanie-proksi-protokola-vless-s-pomoshyu-3x-ui#id-2.-vkhod-v-panel-3x-ui-i-sozdanie-klyucha-polzovatelya), далее перейдите во вкладку "Инбаунды" или если у вас старая панель 3x-ui во вкладку "Подключения"
+Для этого войдите в 3x-ui панель, далее перейдите во вкладку "Инбаунды" или если у вас старая панель 3x-ui во вкладку "Подключения"
 
 <img width="1920" height="397" alt="waterfox_Nb8VT3xTfv" src="https://github.com/user-attachments/assets/720b8281-9158-4b26-ae5f-af2b6e9a9e06" />
 
@@ -54,9 +50,9 @@
 
 <img width="396" height="913" alt="waterfox_cM4oEt0zXZ" src="https://github.com/user-attachments/assets/55e4cd01-9cef-4e4f-9554-d10a31ad526f" />
 
-# Инструкция по смене SNI/Dest в 3x-ui панели
+# Не работает Vless протокол не смотря на настройки SNI
 
-Для этого войдите в 3x-ui панель по инструкциям из [wiki.aeza.net](https://wiki.aeza.net/aezawiki/razvertyvanie-proksi-protokola-vless-s-pomoshyu-3x-ui#id-2.-vkhod-v-panel-3x-ui-i-sozdanie-klyucha-polzovatelya), далее перейдите во вкладку "Инбаунды" или если у вас старая панель 3x-ui во вкладку "Подключения"
+Для этого войдите в 3x-ui панель, далее перейдите во вкладку "Инбаунды" или если у вас старая панель 3x-ui во вкладку "Подключения"
 
 <img width="1920" height="397" alt="waterfox_Nb8VT3xTfv" src="https://github.com/user-attachments/assets/720b8281-9158-4b26-ae5f-af2b6e9a9e06" />
 
@@ -66,17 +62,15 @@
 
 <img width="348" height="465" alt="waterfox_wm48c0K53W" src="https://github.com/user-attachments/assets/e4b2904a-5737-482b-b332-d9877237863c" />
 
-Далее вам нужно тут просто стереть SNI
+Далее вам нужно выбрать любой utls кроме Chrome, например firefox:
 
-<img width="523" height="1300" alt="waterfox_ieuu9ORmNN" src="https://github.com/user-attachments/assets/3f43a2b3-f8d5-41e2-af82-e806a38e2665" />
+<img width="400" height="915" alt="waterfox_WWZ1Mv3FWM" src="https://github.com/user-attachments/assets/2f61dc4e-d5a5-4b4a-97e3-388f7fa13904" />
 
-
-> [!WARNING]  
-> В Target (или в Dest) трогать не надо
+<img width="408" height="914" alt="waterfox_12EtOTx4JK" src="https://github.com/user-attachments/assets/0b95f09c-77dc-4726-b47b-979d45216e73" />
 
 После этого сохраните изменения:
 
-<img width="531" height="1315" alt="waterfox_go5LZlxhu9" src="https://github.com/user-attachments/assets/65d247f5-7987-47f9-a764-b2f2c59ce058" />
+<img width="383" height="681" alt="waterfox_gCPaVrJ1Ws" src="https://github.com/user-attachments/assets/cea53e5c-1c95-47d0-9831-25b81a8e2316" />
 
 Если вы не настраивали подписку то вам необходимо будет скопировать Vless ключ и обновить его в вашем прокси клиенте, ниже показаны скриншоты как скопировать Vless ключ, с инструкциями по настройки прокси клиентов вы можете ознакомиться тут: https://wiki.yukikras.net/ru/nastroikavpn
 
